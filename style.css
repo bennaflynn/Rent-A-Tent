@@ -64,6 +64,9 @@ header{
     height: 300px;
     background-color: #C0C0C0;
     text-align: center;
+    background-image: url("images/rent-a-tent-header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header h1{
@@ -128,6 +131,8 @@ footer{
   background-color: grey;
   height: 150px;
   text-align: center;
+
+
 }
 
 footer p{
@@ -256,7 +261,78 @@ td{
   position: absolute;
   top: 50px;
 }
+.tent-search-results {
+  width:800px;
+  margin:auto;
 
+<<<<<<< HEAD
+
+=======
+  height:400px;
+  text-align: center;
+}
+.tent-image {
+  width:50%;
+  float:left;
+}
+.tent-image a {
+  text-decoration: none;
+  font-size:10px;
+}
+.tent-image img {
+  width:80%;
+  border:1px solid grey;
+}
+.tent-table {
+  width:50%;
+  float: right;
+  margin-top:70px;
+}
+.tent-table td,
+.tent-table th,
+.tent-table table {
+  border:2px solid grey;
+  color: black;
+}
+.tent-table th {
+  text-align: center;
+}
+.aboutwrapper {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+>>>>>>> dbab459ea0dc21f6d619d616709afcf80d9d0132
+
+.aboutmain {
+    width: 75%;
+    padding: 8px;
+    background-color: white;
+    float: left;
+}
+
+.aboutmain p {
+    padding: 20px;
+}
+
+.submittedmain {
+    width: 100%;
+    padding: 8px;
+    background-color: white;
+    float: left;
+}
+
+.aboutsidebar {
+    width: 25%;
+    padding: 5px;
+    background-color: white;
+    float: left;
+}
+
+.aboutmain, .aboutsidebar {
+    display: table-cell;
+}
 .results li{
   list-style-type: none;
   padding: 25px;
@@ -303,21 +379,3 @@ td{
 .result p {
   line-height: 250px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
