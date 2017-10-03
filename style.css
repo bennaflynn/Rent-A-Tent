@@ -264,10 +264,6 @@ td{
 .tent-search-results {
   width:800px;
   margin:auto;
-
-<<<<<<< HEAD
-
-=======
   height:400px;
   text-align: center;
 }
@@ -368,7 +364,7 @@ td{
   padding-top: 5px;
 }
 
-.table th, td{
+.table th, .table td{
   padding: 15px;
 }
 
