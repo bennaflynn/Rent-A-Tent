@@ -64,6 +64,9 @@ header{
     height: 300px;
     background-color: #C0C0C0;
     text-align: center;
+    background-image: url("images/rent-a-tent-header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header h1{
