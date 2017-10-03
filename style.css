@@ -265,7 +265,6 @@ td{
   width:800px;
   margin:auto;
 
-<<<<<<< HEAD
   height:400px;
   text-align: center;
 }
@@ -295,7 +294,6 @@ td{
 .tent-table th {
   text-align: center;
 }
-=======
 .aboutwrapper {
     background-color: white;
     margin-left: auto;
@@ -331,4 +329,3 @@ td{
 .aboutmain, .aboutsidebar {
     display: table-cell;
 }
->>>>>>> 35b400bb03b0e6e057e5045aaa5bd0fddd103f89
