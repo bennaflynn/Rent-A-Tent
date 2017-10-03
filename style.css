@@ -128,6 +128,8 @@ footer{
   background-color: grey;
   height: 150px;
   text-align: center;
+
+
 }
 
 footer p{
@@ -256,21 +258,36 @@ td{
   position: absolute;
   top: 50px;
 }
+.tent-search-results {
+  width:800px;
+  margin:auto;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  height:400px;
+  text-align: center;
+}
+.tent-image {
+  width:50%;
+  float:left;
+}
+.tent-image a {
+  text-decoration: none;
+  font-size:10px;
+}
+.tent-image img {
+  width:80%;
+  border:1px solid grey;
+}
+.tent-table {
+  width:50%;
+  float: right;
+  margin-top:70px;
+}
+.tent-table td,
+.tent-table th,
+.tent-table table {
+  border:2px solid grey;
+  color: black;
+}
+.tent-table th {
+  text-align: center;
+}
