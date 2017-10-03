@@ -64,6 +64,9 @@ header{
     height: 300px;
     background-color: #C0C0C0;
     text-align: center;
+    background-image: url("images/rent-a-tent-header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header h1{
@@ -262,6 +265,7 @@ td{
   width:800px;
   margin:auto;
 
+<<<<<<< HEAD
   height:400px;
   text-align: center;
 }
@@ -291,3 +295,40 @@ td{
 .tent-table th {
   text-align: center;
 }
+=======
+.aboutwrapper {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.aboutmain {
+    width: 75%;
+    padding: 8px;
+    background-color: white;
+    float: left;
+}
+
+.aboutmain p {
+    padding: 20px;
+}
+
+.submittedmain {
+    width: 100%;
+    padding: 8px;
+    background-color: white;
+    float: left;
+}
+
+.aboutsidebar {
+    width: 25%;
+    padding: 5px;
+    background-color: white;
+    float: left;
+}
+
+.aboutmain, .aboutsidebar {
+    display: table-cell;
+}
+>>>>>>> 35b400bb03b0e6e057e5045aaa5bd0fddd103f89
