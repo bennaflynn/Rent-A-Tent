@@ -257,6 +257,53 @@ td{
   top: 50px;
 }
 
+.results li{
+  list-style-type: none;
+  padding: 25px;
+  clear: both;
+}
+
+/* styling for results page */
+
+.result{
+  background-color: #E8E8E8;
+  width: 60%;
+  height: 300px;
+  margin: auto;
+}
+
+.resultImage{
+  width: 250px;
+  height: 250px;
+  float: right;
+  margin: 25px;
+  width: 30%;
+  text-align: center;
+
+
+
+}
+
+.table{
+  width: 60%;
+  margin: 0;
+  padding: 40px;
+  float: left;
+  padding-top: 5px;
+}
+
+.table th, td{
+  padding: 15px;
+}
+
+#resultsHeading{
+  text-align: center;
+}
+
+.result p {
+  line-height: 250px;
+}
+
 
 
 
