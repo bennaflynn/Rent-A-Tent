@@ -265,6 +265,9 @@ td{
   width:800px;
   margin:auto;
 
+<<<<<<< HEAD
+
+=======
   height:400px;
   text-align: center;
 }
@@ -300,6 +303,7 @@ td{
     margin-right: auto;
     display: table;
 }
+>>>>>>> dbab459ea0dc21f6d619d616709afcf80d9d0132
 
 .aboutmain {
     width: 75%;
@@ -328,4 +332,50 @@ td{
 
 .aboutmain, .aboutsidebar {
     display: table-cell;
+}
+.results li{
+  list-style-type: none;
+  padding: 25px;
+  clear: both;
+}
+
+/* styling for results page */
+
+.result{
+  background-color: #E8E8E8;
+  width: 60%;
+  height: 300px;
+  margin: auto;
+}
+
+.resultImage{
+  width: 250px;
+  height: 250px;
+  float: right;
+  margin: 25px;
+  width: 30%;
+  text-align: center;
+
+
+
+}
+
+.table{
+  width: 60%;
+  margin: 0;
+  padding: 40px;
+  float: left;
+  padding-top: 5px;
+}
+
+.table th, td{
+  padding: 15px;
+}
+
+#resultsHeading{
+  text-align: center;
+}
+
+.result p {
+  line-height: 250px;
 }
