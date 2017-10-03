@@ -76,15 +76,22 @@ header h1{
 }
 
 .callToActionSection{
-    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    float: right;
+    margin-right: 100px;
+}
+
+.callToActionSectionItem{
     padding-top: 50px;
     text-align: center;
 }
 
 .searchSection{
-    margin: auto;
     padding-top: 50px;
     text-align: center;
+    margin-left: 0;
+}
 }
 
 .searchSection input[type=datalist]{
@@ -92,8 +99,9 @@ header h1{
 }
 
 section{
-  margin-top: 75px;
+  margin-top: 150px;
   position: relative;
+  clear: both;
 }
 
 .callToAction{
