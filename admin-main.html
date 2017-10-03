@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Control Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<!-- START NAVIGATION -->		
+	<div class="container">
+		<nav class="topnav" id="myTopnav">
+		  <a href="index.html">Rent-A-Tent</a>
+		  <div class="login">
+		  	<a href="index.html">Logout</a>
+		  </div>
+		</nav>
+<!-- END NAVIGATION -->	
+        <div class="signup_container">
+            <!-- Users  -->
+           <div class="searchSection">
+                <h2>Manage Users</h2>
+                <form action="" method="">
+                  <input list="users" name="users" type="datalist" 
+                      placeholder="Robert Johnson">
+                  <datalist id="users">
+                    <option value="Name">
+                    <option value="City">
+                  </datalist>
+                  <button>Search</button>
+                </form>
+            </div>
+            <table>
+                <caption>Search Results</caption>	
+              <tr>
+                <th>User ID</th>
+                <th>Name</th>
+                <th>Email</th> 
+                <th>Address</th>
+                <th>Status</th>
+              </tr>
+              <tr>
+                <td>000013</td>
+                <td>Robert Johnson</td>
+                <td>r.johnson@mail.com</td> 
+                <td>555 Seymour Street, Vancouver</td>
+                <td>Renting - Item 158963004</td>
+              </tr>
+
+            </table>
+            <form action="account.html">
+                <button class="signupbtn">View/Update User Info</button>
+            </form>
+            <!-- Items	-->
+           
+            <div class="searchSection">
+                <h2>Manage Products and Items</h2>
+                <form action="" method="">
+                  <input list="tents" name="tents" type="datalist" 
+                      placeholder="MEC Northwind 2.5">
+                  <datalist id="tents">
+                    <option value="Capacity">
+                    <option value="Make">
+                    <option value="Season">
+                    <option value="Type">
+                  </datalist>
+                  <button>Search</button>
+                </form>
+            </div>
+            <table>
+                <caption>Search Results</caption>	
+              <tr>
+                <th>Product Name</th>
+                <th>Product ID</th>
+                <th>Item ID</th> 
+                <th>Status</th>
+                <th>Container</th>
+              </tr>
+              <tr>
+                <td>MEC Northwind 2.5 Tent</td>
+                <td>011523</td>
+                <td>158963004</td> 
+                <td>Rented - user 000013</td>
+                <td>001</td>
+              </tr>
+              <tr>
+                <td>MEC Northwind 2.5 Tent</td>
+                <td>011523</td> 
+                <td>560043503</td>
+                <td>In Container</td>
+                <td>003</td>
+              </tr>
+            </table>
+            <form action="admin-item.html">
+                <button class="signupbtn">View/Update Product/Item Info</button>
+            </form>
+        
+            
+            <!--  containers  -->
+             <div class="searchSection">
+                <h2>Manage Containers</h2>
+                <form action="" method="">
+                  <input list="containers" name="containers" type="datalist" 
+                      placeholder="Burnaby">
+                  <datalist id="containers">
+                    <option value="Capacity">
+                    <option value="City">
+                  </datalist>
+                  <button>Search</button>
+                </form>
+            </div>
+            <table>
+                <caption>Search Results</caption>	
+              <tr>
+                <th>Container ID</th>
+                <th>City</th>
+                <th>Address</th> 
+                <th>Capacity</th>
+                <th>Item Count</th>
+              </tr>
+              <tr>
+                <td>002</td>
+                <td>Burnaby</td>
+                <td>1228 Main Street</td> 
+                <td>60</td>
+                <td>36</td>
+              </tr>
+
+            </table>
+            <button class="signupbtn">View/Update Container Info</button>
+            
+            
+	    </div>	
+
+		
+
+<!-- START FOOTER -->			
+		<footer>
+			<p>Educational Purposes Only | BCIT SSD 2017 | Rent-A-Tent</p>
+		</footer>
+	</div>
+<!-- END FOOTER -->	
+
+</body>
+</html>
