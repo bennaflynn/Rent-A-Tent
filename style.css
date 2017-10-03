@@ -260,20 +260,27 @@ td{
   top: 50px;
 }
 
+.aboutwrapper {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
 
+.aboutmain {
+    width: 75%;
+    padding: 8px;
+    background-color: white;
+    float: left;
+}
 
+.aboutsidebar {
+    width: 25%;
+    padding: 5px;
+    background-color: white;
+    float: left;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.aboutmain, .aboutsidebar {
+    display: table-cell;
+}
