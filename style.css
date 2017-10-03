@@ -274,6 +274,17 @@ td{
     float: left;
 }
 
+.aboutmain p {
+    padding: 20px;
+}
+
+.submittedmain {
+    width: 100%;
+    padding: 8px;
+    background-color: white;
+    float: left;
+}
+
 .aboutsidebar {
     width: 25%;
     padding: 5px;
