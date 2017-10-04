@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Control Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<!-- START NAVIGATION -->		
+	<div class="container">
+		<nav class="topnav" id="myTopnav">
+		  <a href="index.html">Rent-A-Tent</a>
+		  <div class="login">
+                <a href="admin-main.html">Back</a>
+                <a href="index.html">Logout</a>
+		  </div>
+		</nav>
+<!-- END NAVIGATION -->	
+        <div class="signup_container">
+            <table>
+                <caption>Rental History</caption>	
+              <tr>
+                <th>User</th>
+                <th>Date</th> 
+                <th>Status</th>
+              </tr>
+              <tr>
+                <td>Robet Johnson (000013)</td>
+                <td>09/27/2017</td> 
+                <td>Open</td>
+              </tr>
+              <tr>
+                <td>Jenny Lee (000101)</td>
+                <td>08/15/17</td> 
+                <td>Closed</td>
+              </tr>
+            <tr>
+                <td>Mike Wang (000155)</td>
+                <td>06/20/17</td> 
+                <td>Closed</td>
+            </tr>
+            </table>
+            <form action="" class="signup">
+			    <h2>Item Information</h2>
+			    <label><b>Product ID</b></label>
+			    <input type="text" placeholder="Enter Product ID">
+
+			    <label><b>Purchase Date</b></label>
+			    <input type="text" placeholder="Enter Date">
+			    
+			    <label><b>Condition</b></label>
+			    <input type="text" placeholder="Enter Item Condition">
+
+			    <label><b>Container ID</b></label>
+			    <input type="text" placeholder="Enter Container ID">
+               
+                <label><b>Current Status</b></label>
+			    <input type="radio" name="status">
+                <label for="status">Rented</label>
+                <input type="radio" name="status">
+                <label for="status">Available</label>
+                <br>
+                <br>
+			    <div>
+			    	<button type="submit" class="signupbtn">Submit/Update</button>
+	    		</div>
+	    	</form>	
+           
+            <form action="" class="signup">
+			    <h2>Product Information</h2>
+			    <label><b>Product ID</b></label>
+			    <input type="text" placeholder="Enter Product ID">
+                
+                <label><b>Product Name</b></label>
+			    <input type="text" placeholder="Enter Product Name">
+
+			    <label><b>Product Description</b></label>
+			    <input type="text" placeholder="Enter Description">
+			    
+			    <label><b>Manufacturer</b></label>
+			    <input type="text" placeholder="Enter Info">
+                <label><b>Type</b></label>
+			    <input type="text" placeholder="Enter Info">
+                <label><b>Capacity</b></label>
+			    <input type="text" placeholder="Enter Info">
+                <label><b>Season</b></label>
+			    <input type="text" placeholder="Enter Info">
+
+			    <div>
+			    	<button type="submit" class="signupbtn">Submit/Update</button>
+	    		</div>
+
+	    	</form>	
+	    </div>	
+
+		
+
+<!-- START FOOTER -->			
+		<footer>
+			<p>Educational Purposes Only | BCIT SSD 2017 | Rent-A-Tent</p>
+		</footer>
+	</div>
+<!-- END FOOTER -->	
+
+</body>
+</html>
